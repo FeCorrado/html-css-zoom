@@ -38,6 +38,7 @@ header{
     padding-top: 5px;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 30px;
 }
 
 .arrow4::before {
@@ -59,3 +60,248 @@ header{
 .arrow4{
     margin-top: 2px;
 }
+
+.videos{
+    width: 95%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user{
+    width: 220px;
+    height: 130px;
+    background-image: url(img/spacex-1636705278240-9842.jpg);
+    margin-right: 4px;
+    margin-top: 20px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.user p::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f131";
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+.pinco-pallo{
+    background-color: rgba(201, 201, 201, 0.425);
+    position: absolute;
+    padding-right: 2px;
+    margin-bottom: 1px;
+}
+
+.user p{
+    color: white;
+    font-size: 10px;
+}
+
+footer{
+    height: 10vh;
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    justify-content: space-between;
+}
+
+.mic::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f3c9";
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+p{
+    color: white;
+}
+
+.footer-sx{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-up::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+    content: "\f077";
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
+
+.video{
+    margin-left: 30px;
+}
+
+.cam::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f03d";
+    color: rgb(255, 255, 255);
+}
+
+.footer-cn{
+    display: flex;
+    align-items: center;
+}
+
+.footer-dx{
+    background-color: rgb(161, 161, 161);
+    height: 10vh;
+}
+
+.footer-dx p{
+    color: red;
+    margin-top: 50%;
+}
+
+.invite-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f234";
+    color: rgb(255, 255, 255);
+}
+
+.manage-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f500";
+    color: rgb(255, 255, 255);
+    margin-left: 45px;
+}
+
+.polling-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f080";
+    color: rgb(255, 255, 255);
+}
+
+.share-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f14d";
+    color: rgb(0, 255, 34);
+    margin-left: 25px;
+}
+
+.chat-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f075";
+    color: white;
+}
+
+.record-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f030";
+    color: white;
+    margin-left: 5px;
+}
+
+.break-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f009";
+    color: white;
+    margin-left: 35px;
+}
+
+.more-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f141";
+    color: white;
+}
+
+.manage{
+    margin-left: 15px;
+}
+
+.polling{
+    margin-left: 15px;
+}
+
+.share{
+    margin-left: 15px;
+}
+
+.chat{
+    margin-left: 25px;
+}
+
+.chat{
+    margin-left: 15px;
+}
+
+.record{
+    margin-left: 15px;
+}
+
+.break{
+    margin-left: 15px;
+}
+
+.more{
+    margin-left: 15px;
+}
+/*
+
+
+.mic p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.arrow-up::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+    content: "\f077";
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+}
+
+
+
+.cam{
+    margin-left: 10px;
+}
+
+.cam p{
+    margin-left: 11px;
+}
+
+.invite-logo::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 35px;
+    content: "\f007";
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-top: 3px;
+}
+
+.invite{
+    margin: auto;
+}
+*/
