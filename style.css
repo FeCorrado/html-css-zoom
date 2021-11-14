@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.back-black{
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+}
+
+
+.speaker-view::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00a";
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+.speaker-view{
+    color: white;
+    margin-left: 8px;
+}
+
+.speaker-box{
+    background-color: rgb(129, 129, 129);
+    border-radius: 5px;
+    display: block;
+    width: 130px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+}
+
+header{
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrow4::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f31e";
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    background-color: rgb(129, 129, 129);
+    border-radius: 5px;
+    justify-content: flex-end;
+    margin-left: 5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.arrow4{
+    margin-top: 2px;
+}
